@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Transfer money</title>
+</head>
+
+<body>
+    <div>
+        Transfer
+        <form action="~/Transaction/TransferAmt" method=post>
+            Amount <input type="text" name="amount" value="" /><br /> Account No. <input type="text" name="account" value="" />
+            <br />
+
+            @*Uncomment below line to enable antiforgery token*@
+            @Html.AntiForgeryToken()
+
+            <input type=submit value="Add Money" />
+        </form>
+    </div>
+</body>
+
+</html>

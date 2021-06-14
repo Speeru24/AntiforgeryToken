@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankersApplication", "src\BankersApplication\BankersApplication.csproj", "{49288D19-856B-44C4-BFF1-9C9D6AD70716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackersApplication", "Src\HackersApplication\HackersApplication.csproj", "{5ED5A1A9-6CA3-4C3C-AF08-2432E567A8A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49288D19-856B-44C4-BFF1-9C9D6AD70716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49288D19-856B-44C4-BFF1-9C9D6AD70716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49288D19-856B-44C4-BFF1-9C9D6AD70716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49288D19-856B-44C4-BFF1-9C9D6AD70716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED5A1A9-6CA3-4C3C-AF08-2432E567A8A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED5A1A9-6CA3-4C3C-AF08-2432E567A8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED5A1A9-6CA3-4C3C-AF08-2432E567A8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED5A1A9-6CA3-4C3C-AF08-2432E567A8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F10A72-6DE3-45B9-8D76-0393FF23541F}
+	EndGlobalSection
+EndGlobal
